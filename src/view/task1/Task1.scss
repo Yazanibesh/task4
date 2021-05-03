@@ -1,0 +1,22 @@
+.task1-content {
+  h3 {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  table {
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  .pagination-btn {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0 2rem;
+    button {
+      margin-left: 0.5rem;
+      width: 3rem;
+    }
+  }
+}

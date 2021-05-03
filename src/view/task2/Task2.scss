@@ -1,0 +1,31 @@
+.task2-content {
+  .task2-content-title {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    h3 {
+      margin: 0;
+    }
+  }
+  table {
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    tbody {
+      tr {
+        td {
+          &.actions {
+            button {
+              &:first-child {
+                margin-right: 0.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
